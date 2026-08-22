@@ -47,25 +47,39 @@ const CERTIFICATIONS = [
 
 const ACHIEVEMENTS = [
   {
-    title: 'Research Poster: "BioTherm Sentinel"',
-    subtitle: 'Smart Cold-Chain Monitoring System',
-    location: 'ICRAET 2026 (International Conference)',
-    detail: 'Presented an IoT-driven temperature logging system designed to safeguard pharmaceutical shipping storage integrity using real-time anomaly alerts.',
-    badge: 'Research Publication'
+    title: 'Research Poster Presentation',
+    subtitle: 'BioTherm Sentinel: Smart Cold-Chain Monitoring System',
+    location: 'ICRAET 2026 | LJK University & IFERP Academy',
+    detail: 'Presented a research poster focused on smart cold-chain monitoring at the International Conference on Recent Advances in Engineering and Technology.',
+    badge: 'Research Poster'
   },
   {
-    title: 'CareerPath Showcased',
-    subtitle: 'LJ Innovation Village 2026',
-    location: 'LJ University Campus, Ahmedabad',
-    detail: 'Selected to present my AI-powered career counseling prototype to industry mentors, incubators, and university academic directors.',
-    badge: 'Innovation Showcase'
+    title: 'Course Certification',
+    subtitle: 'Inheritance and Data Structures in Java',
+    location: 'University of Pennsylvania | Coursera | 2025',
+    detail: 'Completed a University of Pennsylvania course covering Java inheritance and data structures through Coursera.',
+    badge: 'Certification'
   },
   {
-    title: 'Lampros DAO Hackathon Participant',
-    subtitle: 'Solana/Rust Web3 Hackathon',
-    location: 'National Sandbox',
-    detail: 'Participated in a 36-hour sprint creating decentralized financial tracking mechanisms on blockchain. Contributed to smart contract rust compilation.',
-    badge: 'Hackathon Sprint'
+    title: 'Web3 Certification',
+    subtitle: 'Web3 & Rust Foundations',
+    location: 'Lampros DAO | 2026',
+    detail: 'Completed foundational training in Web3 and Rust, covering core concepts of blockchain development.',
+    badge: 'Web3'
+  },
+  {
+    title: 'Project Showcase',
+    subtitle: 'CareerPath',
+    location: 'LJ University | Innovation Village 2026',
+    detail: 'Showcased CareerPath, a career assessment platform, at the LJ Innovation Village 2026 project exhibition.',
+    badge: 'Exhibition'
+  },
+  {
+    title: 'Technical Workshop',
+    subtitle: 'Cloud Knight Workshop',
+    location: 'ENCODE & ACM-PDEU | 2026',
+    detail: 'Participated in a technical workshop focused on cloud computing concepts and technologies, organized by ENCODE and ACM-PDEU.',
+    badge: 'Workshop'
   }
 ];
 
@@ -275,7 +289,7 @@ export default function Certificates() {
                         : 'border-stone-300 hover:border-maroon-600 text-stone-600 bg-cream-100'
                     }`}
                   >
-                    {cat === 'all' ? 'All' : cat === 'innovation' ? 'Innovation' : cat === 'campus' ? 'Campus' : 'Vibes'}
+                    {cat === 'all' ? 'All' : cat === 'innovation' ? 'Innovation' : cat === 'campus' ? 'Kanad Shield' : 'Vibes'}
                   </button>
                 ))}
               </div>

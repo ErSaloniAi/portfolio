@@ -9,74 +9,74 @@ const PRIORITIZED_PROJECTS = [
   {
     name: 'CampusXHire',
     repoName: 'CampusXhire',
-    description: 'A comprehensive campus recruitment portal streamlining the connection between students, recruiters, and college administrators.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
-    liveLink: 'https://campusxhire.demo.com', // Placeholder
+    description: 'A Flask-based recruitment web application designed to connect students with companies through a streamlined hiring process.',
+    techStack: ['Python', 'Flask', 'SQLite', 'SQLAlchemy', 'HTML5', 'CSS3', 'JavaScript', 'Jinja2'],
+    liveLink: 'https://web-production-e0223.up.railway.app/',
     repoLink: 'https://github.com/ErSaloniAi/CampusXhire',
-    readmeSummary: 'CampusXHire is a centralized platform designed to manage the end-to-end recruitment process on college campuses. It supports student profile builder, resume parsing, recruiter posting boards, test scheduling, and shortlisting dashboards. The application eliminates paper-based workflow and simplifies job application tracking.'
+    readmeSummary: 'CampusXHire is a Flask-based recruitment platform designed to connect students with companies. It supports student registration with OTP verification, secure login/logout, profile updates, resume/video resume uploads, and portfolio links. It features skill management using SQLAlchemy relationships and a smart job recommendation system based on skill overlap percentages.'
   },
   {
     name: 'CareerPath',
     repoName: 'CareerPath',
-    description: 'An AI-powered career counseling system helping students analyze their skills, explore careers, and chart educational pathways.',
-    techStack: ['Python', 'Flask', 'Machine Learning', 'Pandas', 'HTML', 'CSS'],
+    description: 'An integrated career development ecosystem helping students discover their strengths, build profiles, and find matching jobs.',
+    techStack: ['Python', 'Flask', 'SQLAlchemy', 'Bootstrap', 'SQLite', 'MySQL'],
     liveLink: 'https://careerpath.demo.com',
     repoLink: 'https://github.com/ErSaloniAi/CareerPath',
-    readmeSummary: 'CareerPath uses Machine Learning classification models to recommend optimal career paths for engineering students based on their grades, technical skills, interest assessments, and extracurricular activities. The system features a simple Flask dashboard with data visualizations using Chart.js.'
+    readmeSummary: 'CareerPath is an integrated ecosystem that combines CampusXHire (recruitment) with CareerLens (career assessment & guidance). It empowers students to discover strengths through adaptive 20-question assessments, view performance reports, track historical progress, build professional profiles, and apply to matching jobs with confidence.'
   },
   {
     name: 'VendorBridge',
     repoName: 'VendorBridge',
-    description: 'A secure vendor management portal facilitating communication, quotation bidding, and purchase order tracking.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
+    description: 'A comprehensive Django-based Vendor Management & Procurement System designed for enterprise procurement operations.',
+    techStack: ['Python', 'Django', 'SQLite', 'PostgreSQL', 'Pillow'],
     liveLink: 'https://vendorbridge.demo.com',
     repoLink: 'https://github.com/ErSaloniAi/VendorBridge',
-    readmeSummary: 'VendorBridge acts as an intermediary database between supply chain coordinators and external vendors. It supports user role management (Buyer, Vendor, Admin), request for quotes (RFQs), bidding modules, order dispatch statuses, and electronic invoice storage.'
+    readmeSummary: 'VendorBridge streamlines vendor onboarding, Request for Quotation (RFQ) management, purchase order tracking, and invoice processing. It features role-based access control, document verification workflows, invoice creation, in-app notifications, and vendor performance analytics dashboards.'
   },
   {
     name: 'EstateHub',
     repoName: 'EstateHub',
     description: 'A robust property management and search system implementing advanced Java data structures and database systems.',
-    techStack: ['Java', 'Swing', 'JDBC', 'MySQL', 'Data Structures'],
+    techStack: ['Java', 'MySQL', 'JDBC', 'Data Structures', 'SMTP'],
     liveLink: '',
     repoLink: 'https://github.com/ErSaloniAi/EstateHub',
-    readmeSummary: 'EstateHub is a desktop property listing database application. It leverages key Java data structures (HashMaps, Binary Trees for fast search filtering) and couples with a MySQL backend using JDBC. It provides real estate agents with modules to list properties, schedule viewings, and track customer inquiries.'
+    readmeSummary: 'EstateHub is a property management database system supporting buyers, sellers, and administrators. It handles user registration, property listings, transaction logging, and home loan processing with automatic EMI calculation. It also includes integrated Gmail SMTP notification services and file management.'
   },
   {
-    name: 'Resume Builder',
-    repoName: 'Resume-Builder', // Fallback name
-    description: 'An interactive, client-side resume builder enabling real-time editing, formatting, and high-quality PDF exporting.',
-    techStack: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'PDFKit'],
-    liveLink: 'https://resume-builder.demo.com',
-    repoLink: 'https://github.com/ErSaloniAi',
-    readmeSummary: 'This Resume Builder allows users to construct high-quality, ATS-optimized professional resumes using visual templates. Developed as an editorial single-page React app, it outputs clean print layouts using a custom PDF generation engine, ensuring pixel-perfect spacing.'
+    name: 'AI-dev-assistant',
+    repoName: 'AI-dev-assistant',
+    description: 'An open-source AI-powered developer assistant that detects bugs, explains code in plain English, and suggests improvements.',
+    techStack: ['Python', 'FastAPI', 'Pydantic', 'Pytest', 'Ruff', 'HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://qyverixai.onrender.com',
+    repoLink: 'https://github.com/ErSaloniAi/AI-dev-assistant',
+    readmeSummary: 'AI-dev-assistant is a code analysis workspace. Paste any code and get language detection, a plain-English summary, complexity estimates, and an inventory of functions/classes. It also checks for 40+ bug patterns across Python, JS, TS, Java, and C++, scoring your code and providing actionable suggestions.'
   },
   {
     name: 'InternPay',
     repoName: 'InternPay',
-    description: 'A streamlined payroll management utility for interns, providing attendance tracking and automatic stipend calculation.',
-    techStack: ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB'],
-    liveLink: 'https://internpay.demo.com',
+    description: 'A blockchain-powered escrow platform designed to eliminate payment ghosting in freelance work and internships.',
+    techStack: ['React', 'Next.js', 'Solidity', 'Polygon', 'Hardhat', 'Node.js', 'PostgreSQL', 'Prisma'],
+    liveLink: 'https://internpay.vercel.app/',
     repoLink: 'https://github.com/ErSaloniAi/InternPay',
-    readmeSummary: 'InternPay automates the processing of monthly stipends for project-based interns. It incorporates a calendar-based attendance logger, tax and leave deduction calculator, automated email generation of payslips, and a dashboard for finance administrators to track payouts.'
+    readmeSummary: 'InternPay combines AI-first automated verification, decentralized smart contract escrows on the Polygon network, and a human-in-the-loop dispute resolution mechanism. It ensures students and freelancers are paid fairly for their deliverables while protecting companies from substandard submissions.'
   },
   {
     name: 'VyaparBuddy',
     repoName: 'VyaparBuddy',
-    description: 'A lightweight billing, invoice, and inventory tracking application optimized for small business operations.',
-    techStack: ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB', 'Chart.js'],
+    description: 'An AI-powered business intelligence, bookkeeping, and inventory management platform for Indian SMEs.',
+    techStack: ['React', 'Django', 'DRF', 'PostgreSQL', 'Celery', 'Redis', 'Gemini API'],
     liveLink: 'https://vyaparbuddy.demo.com',
     repoLink: 'https://github.com/ErSaloniAi/VyaparBuddy',
-    readmeSummary: 'VyaparBuddy (Business Companion) is a modern web dashboard designed to replace manual ledger books. It offers barcode scanning support, real-time inventory count alerts, invoice creation and downloading, expense tracking, and sales analytics reports.'
+    readmeSummary: 'VyaparBuddy replaces manual bookkeeping and ledger systems with a unified dashboard supporting English, Hindi, and Gujarati. It features a Gemini-powered AI assistant for natural language inventory querying, customer credit tracking (Khata), GST reporting, and automated restock alerts.'
   },
   {
     name: 'Arbverse',
     repoName: 'Arbverse',
-    description: 'A Web3 cryptocurrency arbitrage tracking portal monitoring price differentials across decentralized exchanges.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'Web3.js', 'Solidity', 'REST APIs'],
-    liveLink: 'https://arbverse.demo.com',
+    description: 'A modern, responsive Web3 educational platform and cryptocurrency price tracking dashboard.',
+    techStack: ['HTML5', 'CSS3', 'JavaScript', 'CoinGecko API'],
+    liveLink: 'https://ersaloniai.github.io/Arbverse/',
     repoLink: 'https://github.com/ErSaloniAi/Arbverse',
-    readmeSummary: 'Arbverse is a proof-of-concept utility that interfaces with Uniswap and SushiSwap smart contracts. It monitors token price pairs in real-time, displays gas estimation costs, and visualizes arbitrage pathways (buy low, sell high opportunities) in an editorial-styled grid.'
+    readmeSummary: 'Arbverse is a 3-page responsive educational website helping users learn blockchain fundamentals and Arbitrum Layer 2 benefits. It integrates the CoinGecko API to track real-time cryptocurrency prices for Bitcoin and Ethereum, featuring positive and negative price change indicators.'
   }
 ];
 

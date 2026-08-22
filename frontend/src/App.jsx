@@ -11,7 +11,11 @@ import Contact from './components/Contact';
 
 export default function App() {
   return (
-    <div class="min-h-screen bg-cream-100 text-ink-900 selection:bg-maroon-600 selection:text-white font-sans flex flex-col">
+    <div class="min-h-screen bg-cream-100 text-ink-900 selection:bg-maroon-600 selection:text-white font-sans flex flex-col relative overflow-hidden">
+      {/* Subtle Editorial Background Animation & Paper Texture */}
+      <div class="fixed inset-0 -z-10 bg-grid-pattern animate-bg-grid opacity-60 pointer-events-none"></div>
+      <div class="fixed inset-0 -z-10 bg-paper-grain opacity-[0.012] pointer-events-none"></div>
+
       {/* 1. Navbar */}
       <Navbar />
 

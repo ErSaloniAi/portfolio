@@ -68,3 +68,25 @@
 .hairline-all {
   border: 0.5px solid rgba(28, 25, 23, 0.15);
 }
+
+/* Faint editorial drafting grid pattern */
+.bg-grid-pattern {
+  background-size: 60px 60px;
+  background-image: 
+    linear-gradient(to right, rgba(140, 37, 59, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(140, 37, 59, 0.025) 1px, transparent 1px);
+}
+
+/* Slow continuous panning animation */
+@keyframes bg-pan {
+  0% { background-position: 0px 0px; }
+  100% { background-position: 60px 60px; }
+}
+.animate-bg-grid {
+  animation: bg-pan 45s linear infinite;
+}
+
+/* Faint archival print paper texture noise */
+.bg-paper-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}

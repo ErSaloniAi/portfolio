@@ -63,7 +63,9 @@ export default function Navbar() {
                 <Linkedin size={16} />
               </a>
               <a
-                href="#contact"
+                href="/Saloni_Gorsiya_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="ml-2 inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-wider text-white bg-maroon-600 hover:bg-maroon-700 transition-colors duration-150"
               >
                 <FileText size={12} />
@@ -121,7 +123,9 @@ export default function Navbar() {
               </a>
             </div>
             <a
-              href="#contact"
+              href="/Saloni_Gorsiya_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
               class="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white bg-maroon-600 hover:bg-maroon-700 transition-colors duration-150"
             >

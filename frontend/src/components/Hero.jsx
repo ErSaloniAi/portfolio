@@ -58,7 +58,6 @@ export default function Hero() {
             <div class="mt-4 pt-3 border-t border-stone-200 flex justify-between items-end">
               <div>
                 <h3 class="font-serif italic text-base text-ink-900">Saloni Gorsiya</h3>
-                <p class="text-[10px] uppercase tracking-wider text-stone-400">Fig 1.1 — Portrait of an Engineer</p>
               </div>
               <div class="text-[10px] text-stone-500 font-mono">
                 [2026]
